@@ -8,19 +8,23 @@ def find_correct_answer():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     i = 0
     while i < 3:
-        number = random.randint(1, 100)
-        print(f'Question: {number}')
+        random_number = random.randint(1, 100)
+        print(f'Question: {random_number}')
         user_answer = prompt.string('Your answer: ')
-        if ((user_answer == 'yes') and (number % 2 == 0)) or ((user_answer == 'no') and (number % 2 != 0)):
+        if is_even(random_number) == user_answer:
             print('Correct!')
             i += 1
             if i == 3:
                 print(f'Congratulations, {user_name}!')
-        elif user_answer != 'yes' and number % 2 == 0:
-            print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {user_name}!")
+        else:
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{is_even(random_number)}'.")
+            print(f"Let's try again, {user_name}!")
             break
-        elif user_answer != 'no' and number % 2 != 0:
-            print(
-                f"'{user_answer}' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {user_name}!")
-            break
+
+
+def is_even(number):
+    if number % 2 == 0:
+        return 'yes'
+    else:
+        return 'no'
