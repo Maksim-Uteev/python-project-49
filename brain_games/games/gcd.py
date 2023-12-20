@@ -20,6 +20,7 @@ def find_correct_answer():
             if i == 3:
                 print(f'Congratulations, {user_name}!')
         else:
-            print(
-                f"{user_answer} is wrong answer ;(. Correct answer was {result_gcd}.\nLet's try again, {user_name}!")
+            print(f"{user_answer} is wrong answer ;(. "
+                  f"Correct answer was {result_gcd}.")
+            print(f"Let's try again, {user_name}!")
             break
