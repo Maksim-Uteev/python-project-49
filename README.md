@@ -1,6 +1,6 @@
 # <h1 align='center'>Игры разума</h1>
 
-### Hexlet tests and linter status, Maintainability Badge
+### Hexlet tests and linter status, Maintainability Badge:
 
 [![Actions Status](https://github.com/Maksim-Uteev/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Maksim-Uteev/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
@@ -25,3 +25,5 @@
 ## Игра: «Проверка на чётность»
 
 Суть игры в следующем: пользователю показывается случайное число. И ему нужно ответить yes, если число чётное, или no — если нечётное:
+
+[![asciicast](https://asciinema.org/a/xN3MGP943djOFbLDCJ15oJH81.svg)](https://asciinema.org/a/xN3MGP943djOFbLDCJ15oJH81)
