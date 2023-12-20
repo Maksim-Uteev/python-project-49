@@ -17,16 +17,17 @@ def find_correct_answer():
             if i == 3:
                 print(f'Congratulations, {user_name}!')
         else:
-            print(
-                f"{user_answer} is wrong answer ;(. Correct answer was {is_prime(random_number)}.\nLet's try again, {user_name}!")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{is_prime(random_number)}'.")
+            print(f"Let's try again, {user_name}!")
             break
 
 
 def is_prime(number):
     if number <= 1:
-        return "no"
+        return 'no'
     else:
         for i in range(2, number):
             if number % i == 0:
-                return "no"
-        return "yes"
+                return 'no'
+        return 'yes'
