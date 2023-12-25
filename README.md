@@ -33,7 +33,9 @@
 brain-even
 ```
 
-Пример <a href="https://asciinema.org/a/385LIVZFnQrwn4k5PXfpNhuUx" target="_blank">игры</a>.
+Пример игры:
+
+[![asciicast](https://asciinema.org/a/385LIVZFnQrwn4k5PXfpNhuUx.svg)](https://asciinema.org/a/385LIVZFnQrwn4k5PXfpNhuUx)
 
 ## Игра: «Калькулятор»
 
@@ -45,7 +47,9 @@ brain-even
 brain-calc
 ```
 
-Пример <a href="https://asciinema.org/a/yHU8hc0PbRKWcrHwwLs9RPIBw" target="_blank">игры</a>.
+Пример игры:
+
+[![asciicast](https://asciinema.org/a/yHU8hc0PbRKWcrHwwLs9RPIBw.svg)](https://asciinema.org/a/yHU8hc0PbRKWcrHwwLs9RPIBw)
 
 ## Игра «НОД»
 
@@ -57,7 +61,9 @@ brain-calc
 brain-gcd
 ```
 
-Пример <a href="https://asciinema.org/a/NlNrrReaSCviv7nMnz5kcPPj1" target="_blank">игры</a>.
+Пример игры:
+
+[![asciicast](https://asciinema.org/a/oPMvhqk2X1F90btPsJUqIvIFg.svg)](https://asciinema.org/a/oPMvhqk2X1F90btPsJUqIvIFg)
 
 ## Игра «Арифметическая прогрессия»
 
@@ -69,7 +75,9 @@ brain-gcd
 brain-progression
 ```
 
-Пример <a href="https://asciinema.org/a/9EUZmCwOADOpkHxluCf5DBeSB" target="_blank">игры</a>.
+Пример игры:
+
+[![asciicast](https://asciinema.org/a/6frKWUXQYesKZZ0k8TEMm9bGK.svg)](https://asciinema.org/a/6frKWUXQYesKZZ0k8TEMm9bGK)
 
 ## Игра «Простое ли число?»
 
@@ -81,4 +89,6 @@ brain-progression
 brain-prime
 ```
 
-Пример <a href="https://asciinema.org/a/GyRMwZzzRdIJamtBL41Cex0ij" target="_blank">игры</a>.
+Пример игры:
+
+[![asciicast](https://asciinema.org/a/GyRMwZzzRdIJamtBL41Cex0ij.svg)](https://asciinema.org/a/GyRMwZzzRdIJamtBL41Cex0ij)
