@@ -25,7 +25,7 @@ def find_correct_answer():
             if i == 3:
                 print(f'Congratulations, {user_name}!')
         else:
-            print(f"{user_answer} is wrong answer ;(. "
-                  f"Correct answer was {progression[mutable_element]}.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{progression[mutable_element]}'.")
             print(f"Let's try again, {user_name}!")
             break
