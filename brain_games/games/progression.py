@@ -5,7 +5,7 @@ import random
 def find_correct_answer():
     user_name = prompt.string('May I have your name? ')
     print(f'Hello, {user_name}!')
-    print('What is the result of the expression?')
+    print('What number is missing in the progression?')
     i = 0
     while i < 3:
         number_1 = random.randint(0, 20)
