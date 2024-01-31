@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "'The brain games' project in Hexlet"
 classifiers=[
     "Topic :: Programming Language :: Python :: 3.10"
-  ],
+  ]
 authors = ["Maksim Uteev <Max.uteev@yandex.ru>"]
 repository = "https://github.com/Maksim-Uteev/python-project-49"
 readme = "README.md"
