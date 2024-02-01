@@ -4,8 +4,9 @@ GAME_TASK = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def calculation():
-    question = random.randint(1, 100)
-    result = is_even(question)
+    random_number = random.randint(1, 100)
+    question = f'{random_number}'
+    result = is_even(random_number)
     return question, result
 
 
