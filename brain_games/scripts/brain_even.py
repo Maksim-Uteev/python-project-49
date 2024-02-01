@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
 
-from brain_games.games.even import find_correct_answer
+from brain_games.engine import start_the_game
+from brain_games.games import even
 
 
 def main():
-    print('Welcome to the Brain Games!')
-    find_correct_answer()
+    start_the_game(even)
 
 
 if __name__ == '__main__':
