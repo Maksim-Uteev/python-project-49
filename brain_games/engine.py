@@ -12,7 +12,7 @@ def start_the_game(game_module):
     print(game_module.GAME_TASK)
 
     for _ in range(GAME_ROUND):
-        question, correct_answer = game_module.get_game()
+        question, correct_answer = game_module.get_question_and_answer()
         print(f'Question: {question}')
         user_answer = prompt.string('Your answer: ')
 
